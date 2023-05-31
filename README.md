@@ -1,6 +1,6 @@
 # Curso de React Native
 
-por [Mateo Silguero](https://twitter.com/mateosilguero1)
+por [Raul Gonzalez](https://twitter.com/soyrauldev)
 
 ## ¿Qué vamos a necesitar ?
 
