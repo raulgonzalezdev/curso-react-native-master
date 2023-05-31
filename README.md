@@ -22,8 +22,6 @@ Deseables:
 - Editor de código (Puede ser cualquiera, yo uso Visual Studio Code)
 - NodeJS (https://nodejs.org/es/)
 
-Opcional (si van a querer usar Expo):
-
 - [Android Studio](https://developer.android.com/studio)
 - [Xcode](https://developer.apple.com/xcode/resources/) (para quienes tengan mac)
 
