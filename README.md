@@ -1,3 +1,19 @@
+---
+marp: true
+---
+
+<style>
+section {
+  background-image: url('./fondo.png');
+  background-size: 100% 100%;
+  background-position: center;
+  color: white;
+  width: 1080px;
+  height: 720px;
+}
+</style>
+
+
 # Curso de React Native
 
 por [Raul Gonzalez](https://twitter.com/soyraulgonzalez)
