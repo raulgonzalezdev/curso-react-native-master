@@ -9,7 +9,7 @@ por [Raul Gonzalez](https://twitter.com/soyraulgonzalez)
 Necesarios:
 
 - Conceptos de programación
-- Manejo de Javascript (si no, este es un link útil para arrancar https://github.com/javascript-101/javascript-101)
+- Manejo de Javascript 
 
 Deseables:
 
