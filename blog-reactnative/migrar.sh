@@ -7,5 +7,5 @@ do
   filename="${filename%.*}"
 
   # Agregamos el Front Matter a cada archivo
-  echo -e "---\nlayout: my_layout\ntitle: $filename\n---\n$(cat $file)" > $file
+  echo -e "---\nlayout: twocolumn\ntitle: $filename\n---\n$(cat $file)" > $file
 done

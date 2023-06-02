@@ -1,9 +1,13 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Presionables
-show_in_menu: false
+ 
 ---
 # Botones
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
 
 Tenemos varios componentes que nos permiten darle la propiedad de 'presionable' o 'tocable' a otro.
 
@@ -45,3 +49,4 @@ uso:
         accessibilityLabel="Learn more about this purple button"
     />
 ```
+[ir a Contenido](/contenido.html)

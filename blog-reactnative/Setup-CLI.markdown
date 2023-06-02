@@ -1,7 +1,12 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Setup-CLI
-show_in_menu: false
+columns: twocolumn
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Usando CLI:
 
@@ -60,3 +65,8 @@ correr en la terminal el siguiente comando, donde 'AwesomeProject' será el nomb
 Luego navegaremos a la carpeta creada: `cd AwesomeProject` y ejecutaremos el comando para correr app en un emulador:
 
 `npm run android` o `npm run ios` (solo mac)
+
+[Atras](./Setup.html)
+
+[ir a Contenido](/contenido.html)
+

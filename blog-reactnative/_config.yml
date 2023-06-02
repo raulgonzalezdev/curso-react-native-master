@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Curso de Raect Native - Aprueba Xtreme
+title: CURSO DE REACT NATIVE
 email: gq.raul@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Descubre el poder de React Native con este curso básico-intermedio.  
@@ -65,4 +65,5 @@ defaults:
       image: true
 
 sass:
-  quiet_deps: true
+    # sass_dir: /assets/css
+    quiet_deps: true

@@ -1,9 +1,14 @@
 ---
-layout: my_layout
+layout: page
 title: Imagenes
-show_in_menu: false
+ 
 ---
-# Inputs
+
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
+
 
 para mostrar imagenes deberemos usar el componente [Image](https://reactnative.dev/docs/image).
 
@@ -14,15 +19,16 @@ uso:
     ...
 
     <View>
+    
       <Image
-        source={require('@expo/snack-static/react-native-logo.png')}
+        source={uri:'https://reactnative.dev/img/tiny_logo.png'}
       />
-      <Image
-        source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
-        }}
+        <Image
+        source={require('@expo/snack-static/react-native-logo.png')}
       />
     </View>
 ```
 
 la prop `source` puede recibir tanto la data de la imagen (cuando hacemos require), como un objeto con la key uri que apunta a una url externa
+
+[ir a Contenido](/contenido.html)

@@ -1,7 +1,12 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Setup-Expo
-show_in_menu: false
+ 
+columns: twocolumn
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Usando Expo:
 
@@ -27,3 +32,7 @@ Esto creará un servidor y nos mostrará un Codigo QR, el cual debemos escannear
 android: https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es_AR
 
 ios: https://apps.apple.com/us/app/expo-client/id982107779
+
+[Atras](./Setup.html)
+
+[ir a Contenido](/contenido.html)

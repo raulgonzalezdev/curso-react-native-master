@@ -1,7 +1,12 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Red
-show_in_menu: false
+columns: twocolumn
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Red (Network)
 
@@ -34,3 +39,4 @@ const Componente = () => {
   return <Text>Hay {usuarios.length} usuarios.</Text>;
 };
 ```
+[ir a Contenido](/contenido.html)

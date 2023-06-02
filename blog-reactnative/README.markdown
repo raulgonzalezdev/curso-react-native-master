@@ -1,13 +1,13 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: README
-show_in_menu: false
+ 
 ---
 
 
 # Curso de React Native
 
-por [Raul Gonzalez](https://twitter.com/soyraulgonzalez)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
 
 ## ¿Qué vamos a necesitar ?
 

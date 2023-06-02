@@ -197,12 +197,33 @@ pre {
 /**
  * Wrapper
  */
- .wrapper {
+//  .wrapper {
+//   max-width: 100%;
+//   width:100%;
+//   // margin-right: auto;
+//   // margin-left: auto;
+//   padding-right: $spacing-unit * .5;
+//   padding-left: $spacing-unit * .5;
+//   @extend %clearfix;
+
+//   @media screen and (min-width: $on-large) {
+//     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+//     padding-right: $spacing-unit;
+//     padding-left: $spacing-unit;
+//   }
+// }
+
+
+.wrapper {
   max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
   padding-right: $spacing-unit * .5;
+   margin-right: auto;
+  margin-left: auto;
   padding-left: $spacing-unit * .5;
+  // background-image: url('/assets/img/logo1.webp');;
+  // background-repeat: no-repeat;
+  // background-position: right center;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {

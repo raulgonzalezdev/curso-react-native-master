@@ -1,9 +1,11 @@
 ---
-layout: my_layout
+layout: page
 title: Listas
-show_in_menu: false
+ 
 ---
-# Listas
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
 
 Una forma de renderizar una lista de elementos en React quizá sea esta:
 
@@ -33,3 +35,4 @@ uso:
         )}
     />
 ```
+[ir a Contenido](/contenido.html)

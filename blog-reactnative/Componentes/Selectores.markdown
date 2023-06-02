@@ -1,9 +1,12 @@
 ---
-layout: my_layout
+layout: page
 title: Selectores
-show_in_menu: false
+ 
 ---
-# Selectores
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
 
 Los Selectores ([Pickers](https://reactnative.dev/docs/picker)), son la forma que tenemoa de mostrar un menú despeglable con opciones:
 
@@ -20,3 +23,4 @@ uso:
         <Picker.Item label="JavaScript" value="js" />
     </Picker>
 ```
+[ir a Contenido](/contenido.html)

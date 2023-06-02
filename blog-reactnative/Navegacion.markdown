@@ -1,11 +1,16 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Navegacion
-show_in_menu: false
+columns: twocolumn
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Navegacion
 
-Entendemos por navegación a la transición entre pantallas. Es muy común en cualquier tipo de aplicación, divirla en modulos y secciones. Pero no contamos dentro del framework con una API para 'navegar', sino que debemos instalar una librería externa.
+Entendemos por navegación a la transición entre ***pantallas***. Es muy común en cualquier tipo de aplicación, divirla en modulos y secciones. Pero no contamos dentro del framework con una API para 'navegar', sino que debemos instalar una librería externa.
 
 Dentro de las opciones, la más común y usada es [`react-navigation`](https://reactnavigation.org/).
 
@@ -120,3 +125,4 @@ ios:
 cd ios && pod install && cd ..
 npm run ios
 ```
+[ir a Contenido](/contenido.html)

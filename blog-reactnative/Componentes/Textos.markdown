@@ -1,7 +1,11 @@
 ---
-layout: my_layout
-title: Textos
-show_in_menu: false
+layout: page
+# title: Textos
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Textos
 
@@ -10,8 +14,10 @@ Por definición, en RN todo texto debe ir contenido por el element [Text](https:
 uso:
 
 ```js
-    import { Text } from 'react-native
+    import { Text } from 'react-native'
     ...
 
-    <Text>Hola mundo !</Text>
+    <Text> Hola mundo !</Text>
+
 ```
+[ir a Contenido](/contenido.html)

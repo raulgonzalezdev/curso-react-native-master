@@ -71,7 +71,7 @@ const Detail = ({route, navigation}) => {
             id,
             description,
             chain: evolutionChain.chain,
-            types: types.sort((a, b) =>
+            types: types.sort((a, 2.  =>
               a.slot > b.slot ? 1 : a.slot < b.slot ? -1 : 0,
             ),
           }),

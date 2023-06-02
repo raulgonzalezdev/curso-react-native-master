@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "es" }}">
 
   {%- include head.html -%}
 
   <body>
 
     {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
+    
+    <main class="page-content {{ page.columns }}" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>

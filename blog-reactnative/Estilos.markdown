@@ -1,7 +1,12 @@
 ---
-layout: my_layout
+layout: twocolumn
+columns: twocolum
 title: Estilos
-show_in_menu: false
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Estilos en RN
 
@@ -53,3 +58,4 @@ Por el ejemplo, para agregar [padding](https://developer.mozilla.org/es/docs/Web
 o
 <View style={StyleSheet.create({padding: 16})}>...</View>
 ```
+[ir a Contenido](/contenido.html)

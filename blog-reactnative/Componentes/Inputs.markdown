@@ -1,9 +1,12 @@
 ---
-layout: my_layout
+layout: page
 title: Inputs
-show_in_menu: false
+ 
 ---
-# Inputs
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
 
 Un input nos da la posibilidad de que el usuario ingrese valores en un campo de texto. para es usamos un [TextInput](https://reactnative.dev/docs/textinput).
 
@@ -18,3 +21,4 @@ uso:
       onChangeText={text => console.log(text)}
     />
 ```
+[ir a Contenido](/contenido.html)

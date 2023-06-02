@@ -1,7 +1,11 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Setup
-show_in_menu: false
+columns: twocolumns
+ 
+---
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Setup (Configuración)
 
@@ -19,9 +23,12 @@ Expo no fue hecha por facebook, sin embargo lo recomiendan en la documentación 
 
 [Expo](https://expo.io/) es un [framework](./Palabras-claves.html#Framework) creado por encima de RN. Expone una [API](./Palabras-claves.html#API) similiar, y nos abstrae de varios problemas, como son por ejemplo instalar android studio y xcode, y ya viene con librerias preinstaladas.
 
-Claro que como todo, esto puede tener ventajas y desventajas: https://stackoverflow.com/questions/39170622/what-is-the-difference-between-expo-and-react-native.
+Claro que como todo, esto puede tener [ventajas y desventajas:](./ventajas.html)
 
 ***
 
 * [Seguir con Expo](./Setup-Expo.html)
 * [Seguir con CLI](./Setup-CLI.html)
+
+
+[ir a Contenido](/contenido.html)

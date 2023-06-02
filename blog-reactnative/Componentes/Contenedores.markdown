@@ -1,10 +1,13 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Contenedores
-show_in_menu: false
+columns: twocolumn
+ 
 ---
 
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
 
+---
 
 En React Native tenemos elementos contenedores que sirven tanto como para agrupar componentes, como definir secciones y darle estilos o propiedas especificas.
 
@@ -54,3 +57,5 @@ uso:
         ...
     </SafeAreaView>
 ```
+
+[ir a Contenido](/contenido.html)

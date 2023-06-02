@@ -1,9 +1,14 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Animaciones
-show_in_menu: false
+columns: twocolumn
+ 
 ---
 
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
+---
 # Animaciones
 
 Con las animaciones podemos crear efectos, interfaces mas fluidas e incluso darle feedback visual a los usuarios.
@@ -76,3 +81,6 @@ const styles = StyleSheet.create({
     marginVertical: 16,
   },
 });
+
+```
+[ir a Contenido](/contenido.html)

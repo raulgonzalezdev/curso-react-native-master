@@ -1,7 +1,12 @@
 ---
-layout: my_layout
+layout: twocolumn
 title: Plataforma
-show_in_menu: false
+columns: twocolumn
+ 
+---
+
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+
 ---
 # Código específico de la plataforma
 
@@ -32,3 +37,4 @@ const styles = StyleSheet.create({
         })}
     />
 ```
+[ir a Contenido](/contenido.html)
