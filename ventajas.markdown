@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -53,4 +53,4 @@ Puede consultar a la comunidad de stack overflow para saber la opinion mas desar
 
 [Atras](./Setup.html)
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

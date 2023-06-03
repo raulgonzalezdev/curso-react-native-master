@@ -2,7 +2,7 @@
 layout: home
 
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Contenido](/contenido.html)
 
 ---
 ## Módulo 1: Introducción a React Native
@@ -19,4 +19,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Co
 
 - [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
 
- [ir a Contenido](/contenido.html)  ---------   [ir a  ](/modulo-dos.html)
+ [Contenido](/contenido.html)  ---------   [Siguiente](/modulo-dos.html)

@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-dos.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Navegacion
@@ -125,4 +125,4 @@ ios:
 cd ios && pod install && cd ..
 npm run ios
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

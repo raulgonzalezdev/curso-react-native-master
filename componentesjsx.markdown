@@ -4,7 +4,7 @@ columns: twocolumn
 title: Componentes y JSX
  
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-dos.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Componentes y JSX
@@ -176,4 +176,4 @@ En React Native todos estos conceptos se mantienenn, pero en lugar de div, deber
 
 Ahora podremos comenzar con la [configuración inicial de React Native](./Setup.html)
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

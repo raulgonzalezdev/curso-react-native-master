@@ -3,7 +3,7 @@ layout: page
 title: Listas
  
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -35,4 +35,4 @@ uso:
         )}
     />
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

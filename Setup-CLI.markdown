@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Usando CLI:
@@ -68,5 +68,5 @@ Luego navegaremos a la carpeta creada: `cd AwesomeProject` y ejecutaremos el com
 
 [Atras](./Setup.html)
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)
 

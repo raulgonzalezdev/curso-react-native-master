@@ -4,7 +4,7 @@ title: Setup
 columns: twocolumns
  
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Setup (Configuración)
@@ -31,4 +31,4 @@ Claro que como todo, esto puede tener [ventajas y desventajas:](./ventajas.html)
 * [Seguir con CLI](./Setup-CLI.html)
 
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

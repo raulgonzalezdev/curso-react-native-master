@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-tres.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-tres.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Red (Network)
@@ -39,4 +39,4 @@ const Componente = () => {
   return <Text>Hay {usuarios.length} usuarios.</Text>;
 };
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

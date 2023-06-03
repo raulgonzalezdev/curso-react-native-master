@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Contenido](/contenido.html)
 
 ---
 ## API
@@ -14,4 +14,4 @@ La interfaz de programación de aplicaciones, conocida también por la sigla API
 ## Framework
 Un framework, entorno de trabajo​ o marco de trabajo2 es un conjunto estandarizado de conceptos, prácticas y criterios para enfocar un tipo de problemática particular que sirve como referencia, para enfrentar y resolver nuevos problemas de índole similar.
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

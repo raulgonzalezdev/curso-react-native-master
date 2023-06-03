@@ -6,7 +6,7 @@ columns: twocolumn
 ---
 
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-cinco.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-cinco.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Animaciones
@@ -83,4 +83,4 @@ const styles = StyleSheet.create({
 });
 
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

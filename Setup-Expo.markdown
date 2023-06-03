@@ -5,7 +5,7 @@ title: Setup-Expo
 columns: twocolumn
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Usando Expo:
@@ -35,4 +35,4 @@ ios: https://apps.apple.com/us/app/expo-client/id982107779
 
 [Atras](./Setup.html)
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

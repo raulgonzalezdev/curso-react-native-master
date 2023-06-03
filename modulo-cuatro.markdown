@@ -2,7 +2,7 @@
 layout: home
 
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -20,4 +20,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Co
 
 - [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
 
- [ ](/modulo-tres.html)  ---------   [ir a Modulo 5](/modulo-cinco.html)
+ [Anterior](/modulo-tres.html)  ---------   [Siguiente](/modulo-cinco.html)

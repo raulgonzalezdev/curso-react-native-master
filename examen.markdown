@@ -6,7 +6,7 @@ columns: twocolumn
 ---
 
 Por [Raúl González](https://twitter.com/soyraulgonzalez)------------
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)
 # Examen Modelo
 
 ## Módulo 1: Introducción a React Native

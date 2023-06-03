@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 ## Desarrollando nuestra App React Native
@@ -45,4 +45,4 @@ Esa herramienta es [Flipper](https://fbflipper.com/), a partir de la version 0.6
 
 Podemos ver los logs, request http, arbol de componentes, reporte de errores, entre otros.
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

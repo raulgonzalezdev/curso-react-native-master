@@ -5,7 +5,7 @@ title: Estilos
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-dos.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Estilos en RN
@@ -58,4 +58,4 @@ Por el ejemplo, para agregar [padding](https://developer.mozilla.org/es/docs/Web
 o
 <View style={StyleSheet.create({padding: 16})}>...</View>
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

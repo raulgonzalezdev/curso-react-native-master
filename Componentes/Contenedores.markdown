@@ -5,7 +5,7 @@ columns: twocolumn
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-dos.html) ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -58,4 +58,4 @@ uso:
     </SafeAreaView>
 ```
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

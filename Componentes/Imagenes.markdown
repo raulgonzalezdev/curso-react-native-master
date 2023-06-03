@@ -6,7 +6,7 @@ title: Imagenes
 
 
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-dos.html) ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -32,4 +32,4 @@ uso:
 
 la prop `source` puede recibir tanto la data de la imagen (cuando hacemos require), como un objeto con la key uri que apunta a una url externa
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

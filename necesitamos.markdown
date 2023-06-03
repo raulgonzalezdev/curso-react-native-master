@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Contenido](/contenido.html)
 
 ---
 ## ¿Qué vamos a necesitar ?
@@ -35,7 +35,7 @@ Deseables:
 
 ---
 
-## [ir a Contenido](/contenido.html)
+## [Contenido](/contenido.html)
 
 ## Link útiles
 

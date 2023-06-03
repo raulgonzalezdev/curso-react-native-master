@@ -4,7 +4,7 @@ title: Selectores
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-cuatro.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-cuatro.html) ---------   [Contenido](/contenido.html)
 
 ---
 
@@ -23,4 +23,4 @@ uso:
         <Picker.Item label="JavaScript" value="js" />
     </Picker>
 ```
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)

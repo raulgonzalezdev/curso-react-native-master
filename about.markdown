@@ -3,7 +3,7 @@ layout: page
 title: Acerca del Curso
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Empezar](/index.html)  ---------   [ir a Contenido](/contenido.html)  ---------   [Modelo Examen](/examen.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Empezar](/index.html)  ---------   [Contenido](/contenido.html)  ---------   [Modelo Examen](/examen.html)
 
 
 Bienvenido <a name="inicio"></a>  al Curso de React Native impartido por Raúl González. Este curso está diseñado para llevarte de los conceptos básicos a los intermedios de React Native, una poderosa biblioteca de JavaScript para la construcción de aplicaciones móviles nativas.

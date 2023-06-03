@@ -4,7 +4,7 @@ columns: twocolumn
 title: Comenzando
  
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar](/modulo-uno.html) ---------   [Contenido](/contenido.html)
 
 ---
 # Comenzando con React Native
@@ -29,4 +29,4 @@ Para desarrollar aplicaciones de manera "tradicional", quiero decir sin usar nin
 
 y ahora... podemos ver  [ventajas y desventajas de usar React Native](./ventajas.html)
 
-[ir a Contenido](/contenido.html)
+[Contenido](/contenido.html)
