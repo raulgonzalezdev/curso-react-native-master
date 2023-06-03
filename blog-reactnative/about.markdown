@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Acerca del Curso
-
-
 ---
+
 por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Empezar](/index.html)  ---------   [ir a Contenido](/contenido.html)  ---------   [Modelo Examen](/examen.html)
 
 

@@ -1,6 +1,5 @@
 ---
 layout: home
-
 ---
 por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
 
