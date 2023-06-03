@@ -17,4 +17,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Co
 
 - [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
 
- [Modulo 2](/modulo-dos.html)  ---------   [ir a Modulo 4](/modulo-cuatro.html)
+ [ ](/modulo-dos.html)  ---------   [ir a  ](/modulo-cuatro.html)

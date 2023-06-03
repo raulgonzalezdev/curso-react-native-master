@@ -6,7 +6,7 @@ title: Imagenes
 
 
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar Modulo 2](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-dos.html) ---------   [ir a Contenido](/contenido.html)
 
 ---
 

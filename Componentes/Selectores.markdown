@@ -4,7 +4,7 @@ title: Selectores
  
 ---
 
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar Modulo 4](/modulo-cuatro.html) ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar  ](/modulo-cuatro.html) ---------   [ir a Contenido](/contenido.html)
 
 ---
 

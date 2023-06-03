@@ -18,4 +18,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Co
 
 - [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
 
- [Modulo 4](/modulo-cuatro.html)  ---------   [ir a Contenido](/contenido.html)
+ [ ](/modulo-cuatro.html)  ---------   [ir a Contenido](/contenido.html)

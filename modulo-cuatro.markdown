@@ -20,4 +20,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Co
 
 - [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
 
- [Modulo 3](/modulo-tres.html)  ---------   [ir a Modulo 5](/modulo-cinco.html)
+ [ ](/modulo-tres.html)  ---------   [ir a Modulo 5](/modulo-cinco.html)
