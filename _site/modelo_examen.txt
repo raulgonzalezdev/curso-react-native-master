@@ -1,0 +1,170 @@
+﻿Módulo 1: Introducción a React Native
+
+¿Qué es React Native?
+1.  Una biblioteca de JavaScript para la construcción de interfaces de usuario
+2.  Un lenguaje de programación
+3.  Un framework de JavaScript para construir aplicaciones nativas para iOS y Android
+4.  Un motor de base de datos
+Respuesta correcta: 3.  Un framework de JavaScript para construir aplicaciones nativas para iOS y Android
+
+¿Cuál es una desventaja de usar React Native?
+1.  No puede reutilizar el código entre iOS y Android
+2.  Es muy difícil de aprender
+3.  Algunas funciones específicas de la plataforma pueden requerir conocimientos de Swift/Obj-C o Java/Kotlin
+4.  No tiene soporte para componentes personalizados
+Respuesta correcta: 3.  Algunas funciones específicas de la plataforma pueden requerir conocimientos de Swift/Obj-C o Java/Kotlin
+
+¿Cuál es la principal diferencia entre React Native CLI y Expo CLI?
+1.  React Native CLI no permite la creación de aplicaciones
+2.  Expo CLI no permite la personalización profunda y acceso directo al código nativo
+3.  React Native CLI es un entorno de desarrollo, mientras que Expo CLI es un lenguaje de programación
+4.  No hay ninguna diferencia, son lo mismo
+Respuesta correcta: 2.  Expo CLI no permite la personalización profunda y acceso directo al código nativo
+
+¿Qué comando se utiliza para crear un nuevo proyecto en React Native CLI?
+1.  npm start
+2.  npm run
+3.  react-native init NombreDelProyecto
+4.  expo init NombreDelProyecto
+Respuesta correcta: 3.  react-native init NombreDelProyecto
+
+En el contexto de React Native, ¿qué significa "Debugging"?
+1.  Es el proceso de buscar y corregir errores en el código
+2.  Es el proceso de añadir nuevas funcionalidades a la aplicación
+3.  Es el proceso de compilar el código
+4.  Es el proceso de instalar nuevas librerías
+Respuesta correcta: 1.  Es el proceso de buscar y corregir errores en el código
+
+Módulo 2: Fundamentos de React Native
+
+¿Qué es JSX en React Native?
+1.  Un lenguaje de programación
+2.  Un motor de base de datos
+3.  Una extensión de la sintaxis de JavaScript que permite escribir estructuras parecidas a HTML
+4.  Una biblioteca para la creación de interfaces de usuario
+Respuesta correcta: 3.  Una extensión de la sintaxis de JavaScript que permite escribir estructuras parecidas a HTML
+
+¿Cómo se crea un botón en React Native?
+1.  Utilizando el componente <Button>
+2.  Utilizando el componente <Btn>
+3.  Utilizando el componente <Press>
+4.  Utilizando el componente <Touch>
+Respuesta correcta: 1.  Utilizando el componente <Button>
+
+¿Cómo se carga una imagen en React Native?
+1.  Usando la etiqueta <Img>
+2.  Usando la etiqueta <Image>
+3.  Usando la etiqueta <Picture>
+4.  Usando la etiqueta <Icon>
+Respuesta correcta: 2.  Usando la etiqueta <Image>
+
+¿Cómo se aplican los estilos en React Native?
+1.  Usando hojas de estilo en cascada (CSS)
+2.  Usando estilos en línea en JSX y StyleSheet.create
+3.  Usando JavaScript puro
+4.  No se pueden aplicar estilos en React Native
+Respuesta correcta: 2.  Usando estilos en línea en JSX y StyleSheet.create
+
+¿Cómo se realiza la navegación entre pantallas en React Native?
+1.  Usando la función navigate de React Navigation
+2.  Usando la función go de React Navigation
+3.  Usando la función link de React Navigation
+4.  No se puede navegar entre pantallas en React Native
+Respuesta correcta: 1.  Usando la función navigate de React Navigation
+
+Módulo 3: Trabajando con datos
+
+¿Cómo se maneja el estado en una aplicación React Native?
+1.  Usando variables globales
+2.  Usando la API Context o una biblioteca de gestión de estado como Redux o MobX
+3.  Usando bases de datos SQL
+4.  No se puede manejar el estado en React Native
+Respuesta correcta: 2.  Usando la API Context o una biblioteca de gestión de estado como Redux o MobX
+
+¿Qué son las 'props' en React Native?
+1.  Son una forma de pasar datos de un componente a otro
+2.  Son una forma de almacenar datos localmente
+3.  Son una forma de acceder a servicios web
+4.  Son una forma de estilizar componentes
+Respuesta correcta: 1.  Son una forma de pasar datos de un componente a otro
+
+¿Cómo se realiza una solicitud a una API o servicio web en React Native?
+1.  Usando la biblioteca axios o la API Fetch incorporada en JavaScript
+2.  Usando el componente <API>
+3.  Usando la función getAPI de React Native
+4.  No se pueden hacer solicitudes a API en React Native
+Respuesta correcta: 1.  Usando la biblioteca axios o la API Fetch incorporada en JavaScript
+
+¿Cómo se almacenan datos localmente en React Native?
+1.  Usando localStorage
+2.  Usando cookies
+3.  Usando AsyncStorage o bibliotecas como Realm o SQLite
+4.  No se pueden almacenar datos localmente en React Native
+Respuesta correcta: 3.  Usando AsyncStorage o bibliotecas como Realm o SQLite
+
+Módulo 4: Desarrollo de componentes avanzados
+
+¿Cómo se puede crear un componente reutilizable en React Native?
+1.  No se pueden crear componentes reutilizables en React Native
+2.  Creando un componente de clase o función y exportándolo para usarlo en otros lugares
+3.  Creando un componente y copiándolo en cada lugar donde se necesite
+4.  Creando un componente en la aplicación principal y heredándolo en los subcomponentes
+Respuesta correcta: 2.  Creando un componente de clase o función y exportándolo para usarlo en otros lugares
+
+¿Cómo se puede renderizar una lista de elementos en React Native?
+1.  Usando la función map de JavaScript y el componente <View>
+2.  Usando la función forEach de JavaScript y el componente <List>
+3.  Usando la función map de JavaScript y el componente <List>
+4.  Usando el componente <FlatList> o <SectionList>
+Respuesta correcta: 4.  Usando el componente <FlatList> o <SectionList>
+
+¿Cómo se manejan los eventos en React Native?
+1.  Usando la API EventListener de JavaScript
+2.  Usando la API Event de React
+3.  Usando propiedades de eventos como onPress, onChangeText, etc.
+4.  Los eventos no se pueden manejar en React Native
+Respuesta correcta: 3.  Usando propiedades de eventos como onPress, onChangeText, etc.
+
+¿Cómo se realiza la comunicación entre componentes en React Native?
+1.  Usando la API Communication de React Native
+2.  Usando la API Context de React, pasando props, o utilizando una biblioteca de gestión de estado
+3.  Usando la función communicate de React Native
+4.  La comunicación entre componentes no es posible en React Native
+Respuesta correcta: 2.  Usando la API Context de React, pasando props, o utilizando una biblioteca de gestión de estado
+
+Módulo 5: Implementación de características adicionales
+
+¿Cómo se pueden implementar animaciones en React Native?
+1.  Usando la API Animation de JavaScript
+2.  Usando la biblioteca Lottie
+3.  Usando la API Animated de React Native, la API LayoutAnimation, o bibliotecas como react-native-reanimated
+4.  Las animaciones no se pueden implementar en React Native
+Respuesta correcta: 3.  Usando la API Animated de React Native, la API LayoutAnimation, o bibliotecas como react-native-reanimated
+
+¿Cómo se puede acceder a la cámara o galería de imágenes en React Native?
+1.  Usando la biblioteca react-native-camera y react-native-image-picker
+2.  Usando la biblioteca react-native-media
+3.  Usando la API Camera de JavaScript
+4.  No se puede acceder a la cámara o galería de imágenes en React Native
+Respuesta correcta: 1.  Usando la biblioteca react-native-camera y react-native-image-picker
+
+¿Cómo se puede implementar la geolocalización en React Native?
+1.  Usando la biblioteca react-native-location
+2.  Usando la API Geolocation de JavaScript
+3.  Usando la biblioteca react-native-geolocation-service
+4.  Tanto 2.  y 3.  son correctas
+Respuesta correcta: 4.  Tanto 2.  y 3.  son correctas
+
+¿Cómo se pueden implementar notificaciones push en React Native?
+1.  Usando la biblioteca react-native-push-notification
+2.  Usando la API Notification de JavaScript
+3.  Usando la biblioteca react-native-notifications
+4.  Tanto 1.  y 3.  son correctas
+Respuesta correcta: 4.  Tanto 1.  y 3.  son correctas
+
+¿Cómo se puede acceder a los sensores del dispositivo en React Native?
+1.  Usando la API Sensor de JavaScript
+2.  Usando la biblioteca react-native-sensors
+3.  Usando la función getSensors de React Native
+4.  No se puede acceder a los sensores del dispositivo en React Native
+Respuesta correcta: 2.  Usando la biblioteca react-native-sensors

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Contenedores | CURSO DE REACT NATIVE</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Contenedores" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Descubre el poder de React Native con este curso básico-intermedio." />
+<meta property="og:description" content="Descubre el poder de React Native con este curso básico-intermedio." />
+<link rel="canonical" href="http://localhost:4000/Componentes/Contenedores.html" />
+<meta property="og:url" content="http://localhost:4000/Componentes/Contenedores.html" />
+<meta property="og:site_name" content="CURSO DE REACT NATIVE" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Contenedores" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Descubre el poder de React Native con este curso básico-intermedio.","headline":"Contenedores","url":"http://localhost:4000/Componentes/Contenedores.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="CURSO DE REACT NATIVE" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">CURSO DE REACT NATIVE</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">Acerca del Curso</a></div>
+      </nav></div>
+</header>
+<main class="page-content twocolumn" aria-label="Content">
+      <div class="wrapper">
+        <p>por <a href="https://twitter.com/soyraulgonzalez">Raúl González</a>  ———   <a href="/contenido.html">ir a Contenido</a></p>
+
+<hr />
+
+<p>En React Native tenemos elementos contenedores que sirven tanto como para agrupar componentes, como definir secciones y darle estilos o propiedas especificas.</p>
+
+<h2 id="view">View</h2>
+
+<p>El más común es el <a href="https://reactnative.dev/docs/view">View</a>, podriamos compararlo con un div en web.</p>
+
+<p>uso:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">import</span> <span class="p">{</span> <span class="nx">View</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-native
+    ...
+
+    &lt;View&gt;
+        ...
+    &lt;/View&gt;
+</span></code></pre></div></div>
+
+<h2 id="scrollview">ScrollView</h2>
+
+<p>Por defecto en RN, cuando el largo del contenido excede el tamaño de la pantalla, el sobrante quedará oculto. Para darle la posibilidad al usuario de scrollear y ver estos elementos, deberemos preveer esta situación y contener la vista dentro de un <a href="https://reactnative.dev/docs/scrollview">ScrollView</a>.</p>
+
+<p>uso:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">import</span> <span class="p">{</span> <span class="nx">ScrollView</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-native
+    ...
+
+    &lt;ScrollView&gt;
+        {/*contenido muy largo*/}
+    &lt;/ScrollView&gt;
+</span></code></pre></div></div>
+
+<h2 id="safeareaview">SafeAreaView</h2>
+
+<p>Y luego tenemos el <a href="https://reactnative.dev/docs/safeareaview">SafeAreaView</a>, que su función principial es fijarse si el dispositivo en el que estamos tiene <strong>Notch</strong> y ajustar el contenido teniendo en cuenta estos espacios.</p>
+
+<p><img src="https://resizer.iproimg.com/unsafe/880x/https://assets.iprofesional.com/assets/jpg/2020/01/489197.jpg?5.4.3" alt="notch" title="Notch" /></p>
+
+<p>uso:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">import</span> <span class="p">{</span> <span class="nx">SafeAreaView</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-native
+    ...
+
+    &lt;SafeAreaView&gt;
+        ...
+    &lt;/SafeAreaView&gt;
+</span></code></pre></div></div>
+
+<p><a href="/contenido.html">ir a Contenido</a></p>
+
+      </div>
+    </main>
+
+    <!--<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Descubre el poder de React Native con este curso básico-intermedio.  </p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+-->
+
+  </body>
+
+</html>

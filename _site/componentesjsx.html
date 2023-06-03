@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Componentes y JSX | CURSO DE REACT NATIVE</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Componentes y JSX" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Descubre el poder de React Native con este curso básico-intermedio." />
+<meta property="og:description" content="Descubre el poder de React Native con este curso básico-intermedio." />
+<link rel="canonical" href="http://localhost:4000/componentesjsx.html" />
+<meta property="og:url" content="http://localhost:4000/componentesjsx.html" />
+<meta property="og:site_name" content="CURSO DE REACT NATIVE" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Componentes y JSX" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Descubre el poder de React Native con este curso básico-intermedio.","headline":"Componentes y JSX","url":"http://localhost:4000/componentesjsx.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="CURSO DE REACT NATIVE" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">CURSO DE REACT NATIVE</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">Acerca del Curso</a></div>
+      </nav></div>
+</header>
+<main class="page-content twocolumn" aria-label="Content">
+      <div class="wrapper">
+        <p>por <a href="https://twitter.com/soyraulgonzalez">Raúl González</a>  ———   <a href="/contenido.html">ir a Contenido</a></p>
+
+<hr />
+<h1 id="componentes-y-jsx">Componentes y JSX</h1>
+
+<p>Uno de nuestros recursos más importantes para apreder, debería ser la <a href="https://reactnative.dev/docs/getting-started">documentación oficial</a>, esta guía esta basada en ella, aunque aún no esta en español :(</p>
+
+<p>## Conceptos Básicos de React</p>
+
+<blockquote>
+  <p><a href="https://reactnative.dev/docs/intro-react">ver más</a></p>
+</blockquote>
+
+<p>Sintaxis:</p>
+
+<p>En la actualidad nos da una sintaxis muy parecida a HTML que se llama JSX y se escribe asi:</p>
+
+<p>index.js (en web)</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// al inicio del archivo importamos nuestras dependecias</span>
+<span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">ReactDOM</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react-dom</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="c1">// EmotyDiv no recibe props</span>
+<span class="kd">const</span> <span class="nx">EmptyDiv</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="o">&lt;</span><span class="nx">div</span> <span class="o">/&gt;</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// Declaramos una función que luego llamaremos componente</span>
+<span class="c1">// esta recibe un solo argumento, que es un objeto al que normalmente le diremos props</span>
+<span class="kd">const</span> <span class="nx">HelloMessage</span> <span class="o">=</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// react nos pide que el return del componente</span>
+  <span class="c1">// devuelva un solo elemento</span>
+  <span class="c1">// en este caso estamos retornando un div, con dos 'hijos' adentro</span>
+  <span class="k">return </span><span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+      <span class="nx">Hola</span> <span class="p">{</span><span class="nx">props</span><span class="p">.</span><span class="nx">name</span><span class="p">}</span>
+      <span class="o">&lt;</span><span class="nx">EmptyDiv</span> <span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="c1">// de esta manera invocamos nuestro componente, y le pasamos la propiedad name,</span>
+<span class="c1">// con el valor "Taylor"</span>
+<span class="nx">ReactDOM</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span>
+  <span class="o">&lt;</span><span class="nx">HelloMessage</span> <span class="nx">name</span><span class="o">=</span><span class="dl">"</span><span class="s2">Taylor</span><span class="dl">"</span> <span class="o">/&gt;</span><span class="p">,</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">hello-example</span><span class="dl">'</span><span class="p">),</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<p>Props:</p>
+
+<p>Recién hablamos de props, que son ? pueden traducirse como los valores que le podemos pasar a un componente desde otro lado, por ejemplo desde el padre, y los valores pueden ser estos:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">HelloMessage</span>
+  <span class="nx">string</span><span class="o">=</span><span class="dl">"</span><span class="s2">string</span><span class="dl">"</span>
+  <span class="nx">number</span><span class="o">=</span><span class="p">{</span><span class="mi">1</span><span class="p">}</span>
+  <span class="nx">boolean</span><span class="o">=</span><span class="p">{</span><span class="kc">true</span><span class="p">}</span>
+  <span class="nx">anotherBoolean</span>
+  <span class="kd">function</span><span class="o">=</span><span class="p">{</span><span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}}</span>
+  <span class="nx">object</span><span class="o">=</span>
+  <span class="nx">array</span><span class="o">=</span><span class="p">{[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]}</span>
+  <span class="kc">null</span><span class="o">=</span><span class="p">{</span><span class="kc">null</span><span class="p">}</span>
+<span class="sr">/&gt;</span><span class="err">;
+</span>
+<span class="c1">// y eso se traduce a esto:</span>
+
+<span class="kd">const</span> <span class="nx">HelloMessage</span> <span class="o">=</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+  <span class="cm">/*
+    {
+        string: "string",
+        number: 1,
+        boolean: true,
+        anotherBoolean: true, // si no le ponemos nada, tambien lo toma como true
+        function: function () {
+            console.log('hello');
+        },
+        object: {a: 1},
+        array: [1, 2, 3]
+        null: null
+    }
+  */</span>
+  <span class="k">return</span> <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;&lt;</span><span class="sr">/div&gt;</span><span class="err">;
+</span><span class="p">};</span>
+</code></pre></div></div>
+
+<p>Estado interno:</p>
+
+<p>Nuestros componentes pueden mantener un estado, valores que persiste durante su <code class="language-plaintext highlighter-rouge">ciclo de vida</code>, y que podemos usar según necesitemos.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// con el 'hook' useState podemos inicializar y luego modificar el estado</span>
+<span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span>
+
+<span class="c1">// Nuestro componente muestra en un primer momento el valor Taylor,</span>
+<span class="c1">// pero cuando apretamos el valor, ese valor cambia a Mateo</span>
+<span class="kd">const</span> <span class="nx">HelloMessage</span> <span class="o">=</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="p">[</span><span class="nx">name</span><span class="p">,</span> <span class="nx">setName</span><span class="p">]</span> <span class="o">=</span> <span class="nf">useState</span><span class="p">(</span><span class="nx">props</span><span class="p">.</span><span class="nx">name</span><span class="p">)</span>
+    <span class="k">return </span><span class="p">(</span>
+        <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+            <span class="nx">Hola</span> <span class="p">{</span><span class="nx">name</span><span class="p">}</span>
+            <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">onClick</span><span class="o">=</span><span class="p">{()</span> <span class="o">=&gt;</span> <span class="nf">setName</span><span class="p">(</span><span class="dl">'</span><span class="s1">Mateo</span><span class="dl">'</span><span class="p">)}</span><span class="o">&gt;</span>
+                <span class="nx">Cambiar</span> <span class="nx">Nombre</span>
+            <span class="o">&lt;</span><span class="sr">/button</span><span class="err">&gt;
+</span>        <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="p">...</span>
+
+<span class="o">&lt;</span><span class="nx">HelloMessage</span> <span class="nx">name</span><span class="o">=</span><span class="dl">"</span><span class="s2">Taylor</span><span class="dl">"</span> <span class="o">/&gt;</span>
+</code></pre></div></div>
+
+<p>Ciclo de vida:</p>
+
+<p>El ciclo de vida es la manera en la que controlamos el comportamiendo del componente desde que es llamado (montado) hasta que dejar de existir dentro de nuestra aplicación.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// con el 'hook' useEffect controlar el ciclo de vida</span>
+<span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useEffect</span><span class="p">,</span> <span class="nx">useState</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span>
+
+<span class="c1">// Nuestro componente muestra en un primer momento el valor Taylor,</span>
+<span class="c1">// pero cuando apretamos el valor, ese valor cambia a Mateo</span>
+<span class="kd">const</span> <span class="nx">Timer</span> <span class="o">=</span> <span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="p">[</span><span class="nx">seconds</span><span class="p">,</span> <span class="nx">setSeconds</span><span class="p">]</span> <span class="o">=</span> <span class="nf">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="c1">// el estado toma valor inicial 0</span>
+
+    <span class="kd">const</span> <span class="nx">tick</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nf">setSeconds</span><span class="p">(</span><span class="nx">seconds</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">// esta funcion se va a llamar una sola vez porque como segundo paramentro</span>
+    <span class="c1">// le pasamos un array vacío</span>
+    <span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// useEffect se llama una vez que el componente este montado</span>
+        <span class="c1">// a cada segundo, incrementaremos en 1 el valor del estado</span>
+        <span class="kd">const</span> <span class="nx">interval</span> <span class="o">=</span> <span class="nf">setInterval</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nf">tick</span><span class="p">(),</span> <span class="mi">1000</span><span class="p">);</span>
+
+        <span class="c1">// la funcióin de retorno se llama una vez que el componente se desmonte</span>
+        <span class="k">return </span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="c1">// aqui vamos a limpiar el intervalo1</span>
+            <span class="nf">clearInterval</span><span class="p">(</span><span class="nx">interval</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">},</span> <span class="p">[])</span>
+
+    <span class="c1">// en cambio aca, se va ejecutar en cada render,</span>
+    <span class="c1">// digamos que cada vez que algo del componente cambie,</span>
+    <span class="c1">// como el estado o las props</span>
+    <span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">me voy a mostrar en cada render</span><span class="dl">'</span><span class="p">)</span>
+    <span class="p">})</span>
+
+    <span class="k">return </span><span class="p">(</span>
+      <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+        <span class="na">Segundos</span><span class="p">:</span> <span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">seconds</span><span class="p">}</span>
+      <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="p">);</span>
+<span class="p">}</span>
+<span class="p">...</span>
+
+<span class="o">&lt;</span><span class="nx">Timer</span> <span class="o">/&gt;</span>
+</code></pre></div></div>
+
+<p>Podremos aprender más sobre esto, haciendo el <a href="https://es.reactjs.org/tutorial/tutorial.html">tutorial</a></p>
+
+<p>En React Native todos estos conceptos se mantienenn, pero en lugar de div, deberemos usar View <a href="https://reactnative.dev/docs/intro-react-native-components#core-components">y así</a></p>
+
+<p>Ahora podremos comenzar con la <a href="./Setup.html">configuración inicial de React Native</a></p>
+
+<p><a href="/contenido.html">ir a Contenido</a></p>
+
+      </div>
+    </main>
+
+    <!--<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Descubre el poder de React Native con este curso básico-intermedio.  </p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+-->
+
+  </body>
+
+</html>
