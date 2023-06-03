@@ -452,7 +452,7 @@ table td {
   background: url("/assets/img/header.png") border-box;
   background-color: #01112E;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (width: 1600px) {
   .site-header {
     background: url("/assets/img/header900.png") border-box;
   }
@@ -503,7 +503,7 @@ table td {
   padding-top: 50px;
   column-gap: 2em;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (width: 1600px) {
   .page-content {
     background: url("/assets/img/fondo900.png") repeat border-box;
   }
