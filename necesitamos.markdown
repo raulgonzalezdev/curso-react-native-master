@@ -25,7 +25,7 @@ Deseables:
 
 **Software instalado**:
 
-- Editor de código [(Puede ser cualquiera, yo uso Visual Studio Code))(https://code.visualstudio.com/#alt-downloads)
+- Editor de código [(Puede ser cualquiera, yo uso Visual Studio Code)](https://code.visualstudio.com/#alt-downloads)
 
 - [NodeJS](https://nodejs.org/es/)
 
