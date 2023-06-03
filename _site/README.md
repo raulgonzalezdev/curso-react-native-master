@@ -50,7 +50,7 @@ Para instalar todas las dependencias necesarias para este proyecto en Linux, sig
 ```shell
 
 # Navegue al directorio del proyecto y al subdirectorio 'blog-reactnative'
-cd curso-react-native-master/blog-reactnative
+cd curso-react-native-master/
 
 # Instale Ruby
 sudo apt-get install ruby-full build-essential zlib1g-dev
@@ -97,7 +97,7 @@ gem install jekyll bundler
 ### Navegue al directorio del proyecto y al subdirectorio 'blog-reactnative'
 
 ```
-cd curso-react-native-master\blog-reactnative
+cd curso-react-native-master
 ```
 
 ## Instale todas las dependencias con Bundler
