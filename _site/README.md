@@ -147,7 +147,7 @@ columns: twocolumn   // puede omitir si quiere una sola columna
 ---
 ```
 
-## Instrucciones Básicas de Markdown
+# Instrucciones Básicas de Markdown
 
 Markdown es un lenguaje de marcado ligero que puedes usar para dar formato a tu texto. Aquí te dejo algunas de las instrucciones básicas que puedes utilizar:
 

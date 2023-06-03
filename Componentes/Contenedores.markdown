@@ -45,7 +45,7 @@ uso:
 
 Y luego tenemos el [SafeAreaView](https://reactnative.dev/docs/safeareaview), que su función principial es fijarse si el dispositivo en el que estamos tiene **Notch** y ajustar el contenido teniendo en cuenta estos espacios.
 
-![notch](https://resizer.iproimg.com/unsafe/880x/https://assets.iprofesional.com/assets/jpg/2020/01/489197.jpg?5.4.3 'Notch')
+![notch](https://www.softinterface.com/Convert-Image-To-PDF/images/Convert-Image-To-PDF-ContextMenu_small.JPG 'Notch')
 
 uso:
 
