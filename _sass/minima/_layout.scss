@@ -3,6 +3,85 @@
  */
 
 
+// .site-header {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   margin-right: auto;
+//   margin-left: auto;
+//   z-index: 1000;  // Asegura que el encabezado siempre esté en la parte superior
+
+//   min-height: $spacing-unit * 1.865;
+
+//   background: url('/assets/img/header.png')  border-box;
+//   background-color: #01112E;  // Agrega un color de fondo para evitar que el contenido se vea a través
+
+
+//  @media screen and (width: 1600px) {
+  
+//   background: url('/assets/img/header900.png')  border-box;
+
+// }
+
+// }
+
+// .site-title {
+//   @include relative-font-size(1.355);
+//   font-weight: 500;
+//   letter-spacing: 10px;
+//   margin-bottom: 0;
+//   color: #ffffff; 
+//   margin-top: 40px;
+
+//   float: left;
+
+//   @include media-query($on-palm) {
+//     padding-right: 45px;
+//   }
+
+//   &,
+//   &:visited {
+//     color: $site-title-color;
+//   }
+//   // Código para insertar los logos
+//   &::before {
+//     content: url('/assets/img/logo.webp');
+//     margin-right: 10px;
+//     position: fixed;  // posiciona el logo fijamente en la pantalla
+//     left: 180px;       // aleja el logo 20px del borde izquierdo de la pantalla
+//     top: 50px;        // aleja el logo 20px del borde superior de la pantalla
+//   }
+
+//   &::after {
+    
+//     content: url('/assets/img/logo1.webp');
+//     margin-right: 10px;
+//     position: fixed;  // posiciona el logo fijamente en la pantalla
+//     right:  200px;       // aleja el logo 20px del borde izquierdo de la pantalla
+//     top: 50px;        // aleja el logo 20px del borde superior de la pantalla
+//   }
+
+// }
+
+// .page-content {
+//   max-width: 91%;
+//   width: 91%;
+//   position: relative;
+//   flex: 1 0 auto;
+//   border: 92px solid transparent;  
+//   background: url('/assets/img/fondo.png') repeat border-box;
+//   padding: 10px;
+//   padding-top: 50px; 
+
+//   column-gap: 2em;
+
+//   @media screen and (width: 1600px) {
+   
+//     background: url('/assets/img/fondo900.png') repeat border-box;
+//   }
+//  }
+
 .site-header {
   position: fixed;
   top: 0;
@@ -10,19 +89,16 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  z-index: 1000;  // Asegura que el encabezado siempre esté en la parte superior
+  z-index: 1000; 
 
   min-height: $spacing-unit * 1.865;
 
-  background: url('/assets/img/header.png')  border-box;
-  background-color: #01112E;  // Agrega un color de fondo para evitar que el contenido se vea a través
+  background: url('/assets/img/header.png') border-box;
+  background-color: #01112E;
 
-
- @media screen and (width: 1600px) {
-  
-  background: url('/assets/img/header900.png')  border-box;
-
-}
+  @media screen and (min-width: 1600px) {
+    background: url('/assets/img/header900.png') border-box;
+  }
 }
 
 .site-title {
@@ -43,24 +119,24 @@
   &:visited {
     color: $site-title-color;
   }
-  // Código para insertar los logos
-  &::before {
-    content: url('/assets/img/logo.webp');
-    margin-right: 10px;
-    position: fixed;  // posiciona el logo fijamente en la pantalla
-    left: 180px;       // aleja el logo 20px del borde izquierdo de la pantalla
-    top: 50px;        // aleja el logo 20px del borde superior de la pantalla
-  }
 
-  &::after {
-    
-    content: url('/assets/img/logo1.webp');
-    margin-right: 10px;
-    position: fixed;  // posiciona el logo fijamente en la pantalla
-    right:  200px;       // aleja el logo 20px del borde izquierdo de la pantalla
-    top: 50px;        // aleja el logo 20px del borde superior de la pantalla
-  }
+  @media screen and (min-width: 900px) {
+    &::before {
+      content: url('/assets/img/logo.webp');
+      margin-right: 10px;
+      position: fixed;
+      left: 180px;     
+      top: 50px;      
+    }
 
+    &::after {
+      content: url('/assets/img/logo1.webp');
+      margin-right: 10px;
+      position: fixed;
+      right:  200px;      
+      top: 50px;       
+    }
+  }
 }
 
 .page-content {
@@ -75,11 +151,11 @@
 
   column-gap: 2em;
 
-  @media screen and (width: 1600px) {
-   
+  @media screen and (min-width: 1600px) {
     background: url('/assets/img/fondo900.png') repeat border-box;
   }
- }
+}
+
 
  .page-content.onecolumn {
   column-count: 1;

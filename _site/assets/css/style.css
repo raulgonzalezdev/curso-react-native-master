@@ -452,7 +452,7 @@ table td {
   background: url("/assets/img/header.png") border-box;
   background-color: #01112E;
 }
-@media screen and (width: 1600px) {
+@media screen and (min-width: 1600px) {
   .site-header {
     background: url("/assets/img/header900.png") border-box;
   }
@@ -475,19 +475,21 @@ table td {
 .site-title, .site-title:visited {
   color: #a6a6a6;
 }
-.site-title::before {
-  content: url("/assets/img/logo.webp");
-  margin-right: 10px;
-  position: fixed;
-  left: 180px;
-  top: 50px;
-}
-.site-title::after {
-  content: url("/assets/img/logo1.webp");
-  margin-right: 10px;
-  position: fixed;
-  right: 200px;
-  top: 50px;
+@media screen and (min-width: 900px) {
+  .site-title::before {
+    content: url("/assets/img/logo.webp");
+    margin-right: 10px;
+    position: fixed;
+    left: 180px;
+    top: 50px;
+  }
+  .site-title::after {
+    content: url("/assets/img/logo1.webp");
+    margin-right: 10px;
+    position: fixed;
+    right: 200px;
+    top: 50px;
+  }
 }
 
 .page-content {
@@ -501,7 +503,7 @@ table td {
   padding-top: 50px;
   column-gap: 2em;
 }
-@media screen and (width: 1600px) {
+@media screen and (min-width: 1600px) {
   .page-content {
     background: url("/assets/img/fondo900.png") repeat border-box;
   }
