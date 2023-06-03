@@ -512,13 +512,43 @@ table td {
 .page-content.onecolumn {
   column-count: 1;
 }
+@media screen and (min-width: 900px) {
+  .page-content.onecolumn {
+    column-count: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-content.onecolumn {
+    column-count: 1;
+  }
+}
 
 .page-content.twocolumn {
-  column-count: 2;
+  column-count: 1;
+}
+@media screen and (min-width: 900px) {
+  .page-content.twocolumn {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-content.twocolumn {
+    column-count: 2;
+  }
 }
 
 .page-content.threecolumn {
-  column-count: 3;
+  column-count: 1;
+}
+@media screen and (min-width: 900px) {
+  .page-content.threecolumn {
+    column-count: 3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-content.threecolumn {
+    column-count: 3;
+  }
 }
 
 .site-nav {
