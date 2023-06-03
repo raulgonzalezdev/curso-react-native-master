@@ -4,7 +4,7 @@ columns: twocolumn
 title: Comenzando
  
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Regresar Modulo 1](/modulo-uno.html) ---------   [ir a Contenido](/contenido.html)
 
 ---
 # Comenzando con React Native
