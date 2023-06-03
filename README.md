@@ -160,3 +160,18 @@ Markdown es un lenguaje de marcado ligero que puedes usar para dar formato a tu 
 
 Recuerda, estos son sólo los fundamentos. Markdown tiene muchas más funcionalidades que puedes explorar.
 
+## Desplegar el sitio estático en Netlify desde GitHub
+
+1. **Crea una cuenta en Netlify:** Si aún no tienes una cuenta en Netlify, ve a [app.netlify.com](https://app.netlify.com/) y crea una cuenta gratuita.
+
+2. **Conecta tu cuenta de GitHub:** Una vez que hayas iniciado sesión en Netlify, busca el botón "New site from Git" en el tablero de Netlify. Haz clic en él y selecciona GitHub como el proveedor de Git.
+
+3. **Selecciona tu repositorio de GitHub:** Netlify te pedirá que autorices el acceso a tus repositorios de GitHub. Una vez que lo hagas, podrás seleccionar el repositorio que contiene tu sitio estático, en este caso, `raulgonzalezdev/curso-react-native-master`.
+
+4. **Configura las opciones de despliegue:** En la siguiente pantalla, podrás configurar las opciones de despliegue. Asegúrate de que la rama a desplegar es la correcta (por lo general, `main` o `master`). Si tu proyecto necesita un comando de construcción (como `npm run build`), introdúcelo en el campo "Build command". El directorio de publicación será generalmente `public` o `dist`, pero depende de tu configuración de despliegue. En el caso de Jekyll, el directorio de publicación es `_site`.
+
+5. **Despliega tu sitio:** Una vez que hayas configurado todo, haz clic en el botón "Deploy site". Netlify desplegará tu sitio y te proporcionará una URL única donde puedes verlo. También puedes configurar un nombre personalizado o usar tu propio dominio si lo prefieres.
+
+¡Eso es todo! Ahora tienes tu sitio estático desplegado en Netlify.
+
+
