@@ -1,42 +1,28 @@
 ---
 layout: home
 ---
-por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a Contenido](/contenido.html)
+por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Empezar](/necesitamos.html)  ---------   [ir a Contenido](/contenido.html)  ---------   [Modelo Examen](/examen.html)
 
----
-## ¿Qué vamos a necesitar ?
 
-**Conocimientos**:
+Bienvenido <a name="inicio"></a>  al Curso de React Native impartido por Raúl González. Este curso está diseñado para llevarte de los conceptos básicos a los intermedios de React Native, una poderosa biblioteca de JavaScript para la construcción de aplicaciones móviles nativas.
 
-Necesarios:
+## Sobre Raúl <a name="sobre-raúl"></a>
 
-- Conceptos de programación
-- Manejo de Javascript 
+Raúl es un apasionado desarrollador de software con mas de 20 años de experiencia en diversas tecnologias entre ellas:  ***JavaScript y React, React Native, Python, Node Js***, entre otras  para crear aplicaciones modernas.
 
-Deseables:
+Ha colaborado en varios proyectos de software exitosos y actualmente se centra en compartir su conocimiento y habilidades 
+con otros a través de este curso y otros afines.
 
-- [React.js](https://es.reactjs.org/)
+Puedes encontrar más sobre Raúl y su trabajo en GitHub:
+[raulgonzalezdev](https://github.com/raulgonzalezdev) /
+[curso-react-native-master](https://github.com/raulgonzalezdev/curso-react-native-master)
 
-- [Node.js](https://nodejs.org/es/)
 
-- [Git](https://git-scm.com/)
+Sigue a Raúl en Twitter:
+[soyraulgonzalez](https://twitter.com/soyraulgonzalez)
 
----
+Este curso es una iniciativa de Aprueba Xtreme. 
+Puedes obtener más información sobre esta organización 
+en su sitio web oficial:
+[Aprueba Xtreme](https://www.apruebaxtreme.com/)
 
-**Software instalado**:
-
-- Editor de código (Puede ser cualquiera, yo uso Visual Studio Code)
-
-- [NodeJS](https://nodejs.org/es/)
-
-- [Android Studio](https://developer.android.com/studio)
-
-- [Xcode](https://developer.apple.com/xcode/resources/) (para quienes tengan mac)
-
----
-
-## [ir a Contenido](/contenido.html)
-
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
