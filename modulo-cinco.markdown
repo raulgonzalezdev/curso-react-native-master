@@ -14,8 +14,6 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Conteni
 4. [Lección 4: Integración de notificaciones push](./Animaciones.html)
 5. [Lección 5: Acceso a sensores del dispositivo](./Animaciones.html)
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 
 
  [Anterior](/modulo-cuatro.html)  ---------   [Contenido](/contenido.html)

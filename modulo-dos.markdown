@@ -17,8 +17,6 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Conteni
 
 
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 
 
  [Anterior](/modulo-uno.html)  ---------   [Siguiente](/modulo-tres.html)

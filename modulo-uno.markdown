@@ -15,8 +15,6 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Conteni
 6. [Lección 5: Desarrollo , Logging and Debugging](./Desarrollo.html)
 
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 
 
  [Contenido](/contenido.html)  ---------   [Siguiente](/modulo-dos.html)

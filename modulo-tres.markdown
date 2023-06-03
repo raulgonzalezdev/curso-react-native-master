@@ -13,8 +13,6 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [Conteni
 3. [Lección 3: Acceso a APIs y servicios web](./Red.html)
 4. [Lección 4: Almacenamiento local de datos](./Red.html)
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 
 
  [Anterior](/modulo-dos.html)  ---------   [Siguiente](/modulo-cuatro.html)

@@ -19,6 +19,4 @@ por [Raúl González](https://twitter.com/soyraulgonzalez)  ---------   [ir a In
 
 ## [Módulo 5: Implementación de características adicionales](./modulo-cinco.html)
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 

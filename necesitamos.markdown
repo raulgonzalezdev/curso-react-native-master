@@ -37,6 +37,4 @@ Deseables:
 
 ## [Contenido](/contenido.html)
 
-## Link útiles
-
-- [www.reactnativeexpress.com](http://www.reactnativeexpress.com/)
+ 
